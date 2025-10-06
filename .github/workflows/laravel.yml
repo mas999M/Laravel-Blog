@@ -65,7 +65,7 @@ jobs:
       run: php artisan key:generate
 
     - name: Run migrations
-      run: php artisan migrate --force
+      run: php artisan migrate 
 
     - name: Run tests
       env:
